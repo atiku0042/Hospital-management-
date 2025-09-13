@@ -1,0 +1,11 @@
+<h2>Patient List</h2>
+<ul>
+    {% for patient in patients %}
+        <p>
+            <li>
+                {{ patient.name }}
+                {{ patient.age }} years old
+            </li>
+        </p>
+    {% endfor %}
+</ul>
